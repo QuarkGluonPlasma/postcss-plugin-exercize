@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "删除无用 css",
+            "program": "${workspaceFolder}/purge/test.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "cwd": "${workspaceFolder}/purge"
+        },
+        {
+            "name": "px 转 rem",
+            "program": "${workspaceFolder}/px-to-rem/test.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "cwd": "${workspaceFolder}/px-to-rem"
+        }
+    ]
+}
